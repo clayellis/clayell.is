@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.clay {
+    color: Black;
+}
+
+.ellis {
+    color: SlateGray;
+}
+
+a {
+    font-weight: 600;
+}
+
+a:link {
+    color: SlateGray;
+}
+
+a:visited {
+    color: SlateGray;
+}
+
+a:hover {
+    color: SteelBlue;
+}
+
+a:active {
+    color: RoyalBlue;
+}

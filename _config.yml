@@ -11,4 +11,5 @@ resume: "assets/docs/Clay Ellis - Sr. iOS Engineer Resume.pdf"
 
 #theme: minima
 #plugins:
+#  - jekyll-seo-tag
 #  - jekyll-feed

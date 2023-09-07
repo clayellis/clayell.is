@@ -16,8 +16,6 @@ html {
     justify-content: center;
     align-items: stretch;
     gap: 50px;
-    max-width: 500px;
-    margin: 40px;
 }
 .header {
     display: flex;
@@ -37,15 +35,28 @@ html {
     align-items: flex-start;
     flex-wrap: wrap;
 }
-@media (max-width: 400px) {
-    .links {
-        flex-direction: column;
-        gap: 30px;
-    }
-}
 .link {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+}
+
+/* Screens 450px wide and smaller */
+@media only screen and (max-width: 450px) {
+    .body {
+        margin: 20px;
+    }
+    .links {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+/* Screens 450px wide and larger */
+@media only screen and (min-width: 450px) {
+    .body {
+        max-width: 500px;
+        margin: 40px;
+    }
 }

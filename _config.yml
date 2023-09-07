@@ -6,7 +6,7 @@ baseurl: "clayell.is"
 url: "http://clayell.is"
 email: clayellis@me.com
 github_username:  clayellis
-resume: "/assets/docs/Clay Ellis - Sr. iOS Engineer Resume.pdf"
+resume: "assets/docs/Clay Ellis - Sr. iOS Engineer Resume.pdf"
 
 #theme: minima
 #plugins:

@@ -3,13 +3,6 @@ html {
     background-color: snow;
 }
 
-#profile {
-    width: 130px;
-    height: 130px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -29,6 +22,12 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.headshot {
+    width: 130px;
+    height: 130px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .title {
     display: flex;

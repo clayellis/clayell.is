@@ -37,7 +37,7 @@ html {
     align-items: flex-start;
     flex-wrap: wrap;
 }
-@media (max-width: 500px) {
+@media (max-width: 400px) {
     .links {
         flex-direction: column;
         gap: 30px;

@@ -45,6 +45,7 @@ html {
 /* Screens 450px wide and smaller */
 @media only screen and (max-width: 450px) {
     .body {
+        max-width: 450px;
         margin: 20px;
     }
     .links {
